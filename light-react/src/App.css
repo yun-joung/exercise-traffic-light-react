@@ -1,0 +1,80 @@
+.background1 {
+  position: fixed;
+  left: 50%;
+  -webkit-transform: translate(-49%);
+  transform: translate(-49%);
+  width:10px;
+  height: 80px;
+  background-color: black;
+  z-index: -1;
+}
+.background2 {
+  position: fixed;
+  top:50px;
+  left: 50%;
+  -webkit-transform: translate(-47%);
+  transform: translate(-47%);
+  width:80px;
+  height: 210px;
+  background-color: black;
+  border-radius: 10px;
+  z-index: -1;
+}
+
+.red {
+  position: relative;
+  margin:25px 15px 5px 15px;
+  width: 50px;
+  height: 50px;
+  background-color:rgb(139, 5, 5);
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.redSelectied {
+  position: relative;
+  margin:25px 15px 5px 15px;
+  width: 50px;
+  height: 50px;
+  background-color:rgb(139, 5, 5);
+  border-radius: 50%;
+  z-index: 1;
+  background-color: rgb(255, 51, 0);
+  box-shadow: 0 0 30px rgb(255, 120, 41);
+}
+.yellow{
+  position: relative;
+  padding-top: 50px;
+  margin:5px 15px 5px 15px;
+  width: 50px;
+  background-color:rgb(180, 163, 4);
+  border-radius: 50%;
+}
+.yellowSelectied {
+  position: relative;
+  padding-top: 50px;
+  margin:5px 15px 5px 15px;
+  width: 50px;
+  background-color:rgb(180, 163, 4);
+  border-radius: 50%;
+  background-color: rgb(238, 255, 0);
+  box-shadow: 0 0 30px rgb(252, 249, 116);
+}
+.green{
+  position: relative;
+  padding-top: 50px;
+  margin:5px 15px 5px 15px;
+  width: 50px;
+  background-color:rgb(2, 88, 2);
+  border-radius: 50%;
+}
+.greenSelectied  {
+  position: relative;
+  padding-top: 50px;
+  margin:5px 15px 5px 15px;
+  width: 50px;
+  background-color:rgb(2, 88, 2);
+  border-radius: 50%;
+  background-color: rgb(6, 194, 0);
+  box-shadow: 0 0 30px rgb(84, 255, 84);
+}

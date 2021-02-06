@@ -1,0 +1,36 @@
+.background1 {
+  position: fixed;
+  left: 50%;
+  -webkit-transform: translate(-49%);
+  transform: translate(-49%);
+  width:10px;
+  height: 80px;
+  background-color: black;
+  z-index: -1;
+}
+.background2 {
+  position: fixed;
+  top:50px;
+  left: 50%;
+  -webkit-transform: translate(-47%);
+  transform: translate(-47%);
+  width:80px;
+  height: 175px;
+  background-color: black;
+  border-radius: 10px;
+  z-index: -1;
+  border: 5px solid black;
+}
+
+.light{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    border-radius: 50%;
+    padding: 4px;
+    cursor: pointer;
+&.red {background-color: rgba(255, 0, 0, 0.842);}
+&.yellow {background-color: rgb(214, 218, 0);}
+&.green {background-color: green;}
+&.selected{box-shadow: #f8ffcc 0px 0px 50px 20px;}
+}
